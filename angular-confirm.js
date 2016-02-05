@@ -14,7 +14,7 @@
     return factory(root.angular);
   }
 }(this, function (angular) {
-angular.module('angular-confirm', ['ui.bootstrap.modal'])
+angular.module('angular-confirm', ['ui.bootstrap'])
   .controller('ConfirmModalController', function ($scope, $uibModalInstance, data) {
     $scope.data = angular.copy(data);
 
